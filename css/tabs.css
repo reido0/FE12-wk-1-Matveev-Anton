@@ -1,0 +1,119 @@
+.tabs {
+  background-color: white;
+  padding: 126px 0 190px;
+}
+
+.tabs-conteiner {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.tabs-row {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 -15px; */
+}
+
+.tabs-button {
+    width: 135px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ec7f1f;
+    border: 0;
+    color: #ffffff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    /* transition: 0.2s; */
+}
+
+.tabs-button:hover {
+    /* background-color: #ec7f1f; */
+    cursor: pointer;
+}
+
+.tabs-button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.tabs-title-discription-button {
+  margin: 26px 0 0 108px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 407px;
+  max-width: 572px;
+}
+
+/* .tabs-item-a::before,
+.tabs-item-b::before,
+.tabs-item-c::before {
+  content: 'TAB 1';
+  color: #ffffff;
+  text-align: center;
+  line-height: 110px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9375rem;
+  width: 112PX;
+  height: 110px;
+  border-radius: 3%;
+  background-color: #000000;
+  /* margin-bottom: 10px; */
+  /* display: block; */
+/* } */
+
+.tabs-item-a,
+.tabs-item-b,
+.tabs-item-c {
+  color: #ffffff;
+  width: 112px;
+  height: 110px;
+  border: 0;
+  border-radius: 3%;
+  background-color: #333333;
+  ;
+  transition: 0.2s;
+}
+
+.tabs-item-a:hover,
+.tabs-item-b:hover,
+.tabs-item-c:hover {
+  cursor: pointer;
+  background-color: #d98943;
+}
+
+.tabs-item-a,
+.tabs-item-b {
+  margin-bottom: 10px;
+}
+
+.tabs-items {
+  height: 350px;
+  margin: 0 10px;
+  margin: 26px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tabs-title {
+  margin-bottom: 59px;
+}
+
+.tabs-discription {
+  margin-bottom: 89px;
+  
+}
+
+.tabs-img-town {
+  width: 320px;
+  height: 253px;
+  /* margin: -89px 0 0; */
+}

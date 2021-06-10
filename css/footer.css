@@ -1,0 +1,70 @@
+.fab:hover {
+    transform: scale(1.1);
+    /* box-shadow: -0px 3px 10px 5px  rgba(0, 0, 0, 0.5); */
+}
+
+.fa-odnoklassniki-square:hover {
+    color: orange;
+}
+
+.fa-facebook-square:hover {
+    color: rgba(13, 88, 201, 0.753);
+}
+
+.fa-twitter-square:hover {
+    color: rgb(0, 153, 255);
+}
+
+.fa-google-plus-square:hover {
+    color: tomato;
+}
+
+.fa-pinterest-square:hover {
+    color: rgb(216, 37, 5);
+}
+
+.instagram-footer:hover {
+    /* color: rgb(168, 0, 219); */
+    background: linear-gradient(45deg, #ffd13a, #b100b1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.875rem;
+    line-height: 30px;
+}
+
+.fa-steam-square:hover {
+    color: rgb(78, 121, 146);
+}
+
+.footer {
+    width: 100%;
+    padding: 30px 0 15px;
+    background: black;
+}
+
+.footer-conteiner {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.footer-title {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.75rem;
+}
+
+.footer-icons {
+    width: 317px;
+    margin: auto;
+    padding-bottom: 18px;
+    font-size: 1.875rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+i {
+    color: rgba(255, 255, 255, 0.5);
+}
